@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1620837824 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\comprime.cpp
+	"comprime.h"
+	<iostream>
+
+1620837846 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\comprime.h
+	<medicament.h>
+
+1621533702 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\medicament.h
+	"string"
+
+1620837969 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\pellicule.cpp
+	"pellicule.h"
+	<iostream>
+
+1620837948 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\pellicule.h
+	<medicament.h>
+
+1621542060 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\main.cpp
+
+1621523274 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\stock.h
+	<vector>
+	"medicament.h"
+	"sirop.h"
+
+1621533675 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\sirop.h
+	<medicament.h>
+
+1621533815 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\medicament.cpp
+	"medicament.h"
+	"sirop.h"
+	<iostream>
+	<fstream>
+
+1620837756 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\sirop.cpp
+	"sirop.h"
+	<iostream>
+	<fstream>
+
+1620838037 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\pomade.cpp
+	"pomade.h"
+	<iostream>
+	<fstream>
+
+1620838557 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\pomade.h
+	<medicament.h>
+
+1621468300 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\stock.cpp
+	"stock.h"
+	<typeinfo>
+	"sirop.h"
+	"comprime.h"
+	"pellicule.h"
+	"pomade.h"
+	"iostream"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1621188774 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\personne.cpp
+	"personne.h"
+	<iostream>
+
+1621542229 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\personne.h
+	<string>
+
+1621188619 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\fournisseur.cpp
+	"fournisseur.h"
+	<iostream>
+
+1621112009 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\fournisseur.h
+	<personne.h>
+	"string"
+
+1621521939 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\pharmacie.h
+	"fournisseur.h"
+	"commande.h"
+	<vector>
+	"Client.h"
+
+1621537686 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\pharmacie.cpp
+	"pharmacie.h"
+	"fournisseur.h"
+	"stock.h"
+	"commande.h"
+	"string"
+	"medicament.h"
+	"sirop.h"
+	"comprime.h"
+	"pellicule.h"
+	"pomade.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<typeinfo>
+
+1621536104 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\commande.cpp
+	"commande.h"
+	<typeinfo>
+	"sirop.h"
+	"comprime.h"
+	"pellicule.h"
+	"pomade.h"
+	"iostream"
+	"stock.h"
+	"pharmacie.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1621518730 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\commande.h
+	<vector>
+	"medicament.h"
+	"fournisseur.h"
+
+1621352906 source:c:\users\lenovo\desktop\work c\projetc++ pharmacie\src\client.cpp
+	"Client.h"
+
+1621352926 c:\users\lenovo\desktop\work c\projetc++ pharmacie\include\client.h
+	<personne.h>
+	<string>
+	<iostream>
+

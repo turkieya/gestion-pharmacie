@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projetc++ pharmacie" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projetc++ pharmacie" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projetc++ pharmacie" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Client.h" />
+		<Unit filename="include/commande.h" />
+		<Unit filename="include/comprime.h" />
+		<Unit filename="include/fournisseur.h" />
+		<Unit filename="include/medicament.h" />
+		<Unit filename="include/pellicule.h" />
+		<Unit filename="include/personne.h" />
+		<Unit filename="include/pharmacie.h" />
+		<Unit filename="include/pomade.h" />
+		<Unit filename="include/sirop.h" />
+		<Unit filename="include/stock.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Client.cpp" />
+		<Unit filename="src/commande.cpp" />
+		<Unit filename="src/comprime.cpp" />
+		<Unit filename="src/fournisseur.cpp" />
+		<Unit filename="src/medicament.cpp" />
+		<Unit filename="src/pellicule.cpp" />
+		<Unit filename="src/personne.cpp" />
+		<Unit filename="src/pharmacie.cpp" />
+		<Unit filename="src/pomade.cpp" />
+		<Unit filename="src/sirop.cpp" />
+		<Unit filename="src/stock.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
